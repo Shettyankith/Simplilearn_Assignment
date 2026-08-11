@@ -1,0 +1,22 @@
+[
+    {
+        "name":"Home",
+        "link":"/"
+    },
+    {
+        "name":"Features",
+        "link":"/"
+    },
+    {
+        "name":"Community",
+        "link":"/"
+    },
+    {
+        "name":"Blog",
+        "link":"/"
+    },
+    {
+        "name":"Pricing",
+        "link":"/"
+    }
+]
