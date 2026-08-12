@@ -17,8 +17,8 @@ function SpendingPage() {
             <Button text={spendingPage.button.label}></Button>
             </div>
     </div>
-    <div className='bg-[#F5F7FA] flex flex-col md:flex-col justify-between gap-[5vw] md:gap-0 items-center py-[5vw] px-[10vw]'>
-        <div className=''>
+    <div className='bg-[#F5F7FA] flex flex-col md:flex-row justify-between gap-[14vw] sm:gap-[5vw] md:gap-0 items-center py-[15vw] px-[15vw] sm:py-[6vw] sm:px-[12vw] md:py-[5vw] md:px-[10vw]'>
+        <div className='flex flex-col gap-[2vw] sm:gap-0'>
             <h1 className='md:text-[2.8vw] text-[6vw] text-[#4D4D4D] font-bold'>{HELPING_BUISNESS.heading}</h1>
             <h1 className='text-[#4CAF4F] font-bold text-[6vw] md:text-[2.8vw]'>{HELPING_BUISNESS.spanText  }</h1>
             <p className='text-[#18191F] my-[0.7vw]'>{HELPING_BUISNESS.sideHeading}</p>
@@ -30,7 +30,7 @@ function SpendingPage() {
                     key={idx}
                     className="flex items-center gap-[1vw]"
                   >
-                      <div className="w-[8vw] md:w-[4vw] shrink-0 flex justify-center">
+                      <div className="w-[10vw] sm:w-[8vw] md:w-[4vw] shrink-0 flex justify-center">
                           <Image
                             src={item.logo}
                             alt={item.name}
@@ -41,11 +41,11 @@ function SpendingPage() {
                       </div>
                   
                       <div className="flex flex-col">
-                          <h1 className="text-[#4D4D4D] text-[4vw] md:text-[2vw] font-bold">
+                          <h1 className="text-[#4D4D4D] text-[5vw] sm:text-[4vw] md:text-[2vw] font-bold">
                               {item.count}
                           </h1>
                   
-                          <p className="text-[#717171] text-[2.9vw] md:text-[1vw]">
+                          <p className="text-[#717171] text-[3.5vw] sm:text-[2.9vw] md:text-[1vw]">
                               {item.name}
                           </p>
                       </div>

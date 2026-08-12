@@ -11,9 +11,9 @@ function Blogs() {
             <div className="flex flex-col md:flex-row justify-center items-center gap-[30vw] md:gap-[2vw] mt-[10vw] mb-[25vw] sm:mb-[35vw] md:mt-[2vw] md:mb-[4vw]">
                 {
                     BLOGS.blogList.map((blog, idx) => (
-                        <div key={idx} className="relative md:w-[25%] w-[94%] h-50 md:h-fit" >
+                        <div key={idx} className="relative md:w-[25%] w-[94%] h-50 md:h-fit sm:mb-[10vw] md:mb-0" >
                             <div
-                                className="w-full h-50 sm:h-80 md:h-[20vw] bg-cover bg-center rounded-lg"
+                                className="w-full h-[200px] sm:h-[350px] md:h-[20vw] bg-cover bg-center rounded-lg"
                                 style={{
                                     backgroundImage: `url(${blog.logo})`,
                                 }}

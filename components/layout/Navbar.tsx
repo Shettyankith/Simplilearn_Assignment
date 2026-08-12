@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <header className='relative flex justify-between items-center'>
         <div>
-            <Image src={IMAGES.logo} alt="Logo" width={200} height={200} className="h-auto w-[10vw] min-w-[100px]"/>
+            <Image src={IMAGES.logo} alt="Logo" width={200} height={200} className="h-auto w-[10vw] min-w-[130px] sm:min-w-[150px] md:min-w-[100px]"/>
         </div>
         <div className='hidden lg:flex justify-between items-center'>
             <ul className='flex justify-items-start items-center '>

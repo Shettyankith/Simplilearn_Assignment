@@ -13,7 +13,7 @@ function CustomersPage() {
                 </div>
                 <div className='flex flex-col gap-[5vw] md:gap-[1vw] justify-start w-full md:w-[40%]'>
                     <h1 className='text-[#4D4D4D] md:text-[2.4vw] text-[5vw] font-bold'>{data.heading}</h1>
-                    <p className='text-[#717171] text-[3vw] md:text-[1vw]'>{data.sideHeading}</p>
+                    <p className='text-[#717171] text-[4vw] md:text-[1vw]'>{data.sideHeading}</p>
                     <Button text={data.button.label}></Button>
                 </div>
             </div>
@@ -22,11 +22,11 @@ function CustomersPage() {
                     <Image src={IMAGES.teslaImage} alt={"Illustration image"} width={400} height={400}></Image>
                 </div>
                 <div className='flex flex-col gap-[4vw] md:gap-[0.8vw] justify-start w-full md:w-[60%] mb-[9vw] md:mb-0'>
-                    <p className='text-[#717171] text-[3vw] md:text-[1vw]'>{CUSTOMERS.description}</p>
+                    <p className='text-[#717171] text-[4vw] md:text-[1vw]'>{CUSTOMERS.description}</p>
                     <h4 className='text-[#4CAF4F] text-[3.9vw] md:text-[1.5vw] font-medium'>{CUSTOMERS.personName}</h4>
                     <p className='text-[#89939E]'>{CUSTOMERS.designation}</p>
                     <div className="flex justify-start flex-col flex-wrap md:flex-nowrap  md:flex-row items-center gap-[2vw]">
-                        <div className="flex justify-start items-end gap-[2.5vw] my-[1vw]">
+                        <div className="flex justify-start items-end gap-[6vw] sm:gap-[4vw] md:gap-[2.5vw] my-[1vw]">
                             {
                                 CUSTOMERS.customerLogos.map((logo,idx)=>(
                                     <Image src={logo} key={idx} alt="Logo" height={50} width={50}

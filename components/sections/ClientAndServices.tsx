@@ -6,10 +6,10 @@ function ClientAndServices() {
     return (
         <div className='bg-white text-black '>
             <PageHeading heading={OUR_CLIENTS.heading} subHeading={OUR_CLIENTS.sideHeading} />
-            <div className='flex gap-[8.5vw] flex-wrap md:flex-nowrap w-screen justify-center items-center py-[8vw] md:py-[2vw] mb-[2vw]'>
+            <div className='flex gap-[8.5vw] flex-wrap md:flex-nowrap  justify-center items-center py-[8vw] md:py-[2vw] mb-[2vw]'>
                 {
                     OUR_CLIENTS.clientList.map((client, idx) => (
-                        <Image src={client} alt="logo" className='' width={60} height={60} key={idx}></Image>
+                        <Image src={client} alt="logo" className='w-[10vw] h-[10vw] sm:w-[5vw] sm:h-[5vw] md:w-[4vw] md:h-[4vw]' width={60} height={60} key={idx}></Image>
                     ))
                 }
             </div>
