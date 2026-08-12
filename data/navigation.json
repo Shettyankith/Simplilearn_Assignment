@@ -4,19 +4,23 @@
         "link":"/"
     },
     {
-        "name":"Features",
+        "name":"Service",
         "link":"/"
     },
     {
-        "name":"Community",
+        "name":"Feature",
         "link":"/"
     },
     {
-        "name":"Blog",
+        "name":"Product",
         "link":"/"
     },
     {
-        "name":"Pricing",
+        "name":"Testimonial",
+        "link":"/"
+    },
+    {
+        "name":"FAQ",
         "link":"/"
     }
 ]

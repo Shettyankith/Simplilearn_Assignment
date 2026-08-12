@@ -1,10 +1,9 @@
 {
-    "hero": {
-      "lessonsText": "Lessons and insights from 8 years",
+      "lessonsText": "Lessons and insights",
+      "spanText":"from 8 years",
       "sideHeading": "Where to grow your business as a photographer: site or social media?",
       "button": {
-        "label": "Register Now",
+        "label": "Register",
         "link": "/"
       }
     }
-  }

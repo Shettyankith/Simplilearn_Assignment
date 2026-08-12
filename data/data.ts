@@ -1,7 +1,6 @@
 import { IMAGES } from "./images"
 
 export const OUR_CLIENTS={
-    
       heading: "Our Clients",
       sideHeading: "We have been working with some Fortune 500+ clients",
       clientList:[
@@ -10,6 +9,8 @@ export const OUR_CLIENTS={
         IMAGES.client3Logo,
         IMAGES.client4Logo,
         IMAGES.client5Logo,
+        IMAGES.client6Logo,
+        IMAGES.client3Logo,
       ]
     
   }
@@ -19,6 +20,11 @@ export const OUR_CLIENTS={
       heading: "Manage your entire community in a single system",
       sideHeading: "Who is Nextcent suitable for?",
       servicesList:[
+        {
+          logo:IMAGES.serviceIcon1,
+          name:"Membership Organisations",
+          description:"Our membership management software provides full automation of membership renewals and payments"
+         },
        {
         logo:IMAGES.serviceIcon2,
         name:"National Associations",
@@ -34,7 +40,8 @@ export const OUR_CLIENTS={
   }
 
   export const HELPING_BUISNESS={
-    heading: "Helping a local business reinvent itself",
+    heading: "Helping a local",
+    spanText:"business reinvent itself",
     sideHeading: "We reached here with our hard work and dedication",
     counts:[
      {
@@ -70,6 +77,7 @@ export const CUSTOMERS={
    IMAGES.client3Logo,
    IMAGES.client4Logo,
    IMAGES.client5Logo,
+   IMAGES.client6Logo,
   ],
   button:{
     text:"Meet all customers",
@@ -83,24 +91,90 @@ export const BLOGS={
   blogList:[
    {
     logo:IMAGES.blogImage1,
-    count:"Creating Streamlined Safeguarding Processes with OneRen",
+    description:"Creating Streamlined Safeguarding Processes with OneRen",
     button:{
       text:"Readmore",
     }
    },
    {
     logo:IMAGES.blogImage2,
-    count:"What are your safeguarding responsibilities and how can you manage them?",
+    description:"What are your safeguarding responsibilities and how can you manage them?",
     button:{
       text:"Readmore",
     }
    },
    {
     logo:IMAGES.blogImage3,
-    count:"Revamping the Membership Model with Triathlon Australia",
+    description:"Revamping the Membership Model with Triathlon Australia",
     button:{
       text:"Readmore",
     }
    },
   ]
+}
+
+export const FOOTER={
+  logo:IMAGES.companyDesignLogo,
+  companyName:"Nexcent",
+  copyright:"Copyright 2020 Nexcent Itd.",
+  allRights:"All Rights reserved",
+  mediaLinks:[
+   IMAGES.instaIcon,
+   IMAGES.websiteIcon,
+   IMAGES.twitterIcon,
+   IMAGES.youtTubeIcon,
+  ],
+  companyLinks:{
+    heading:"Company",
+    links:[
+      {
+        text:"About Us",
+        link:"/"
+      },
+      {
+        text:"Blog",
+        link:"/"
+      },
+      {
+        text:"Contact Us",
+        link:"/"
+      },
+      {
+        text:"Pricing",
+        link:"/"
+      },
+      {
+        text:"Testimonials",
+        link:"/"
+      },
+    ]
+  },
+  supportLinks:{
+    heading:"Support",
+    links:[
+      {
+        text:"Help Center",
+        link:"/"
+      },
+      {
+        text:"Terms Of Service",
+        link:"/"
+      },
+      {
+        text:"Legal",
+        link:"/"
+      },
+      {
+        text:"Privacy Policy",
+        link:"/"
+      },
+      {
+        text:"Status",
+        link:"/"
+      },
+    ]
+  },
+  sendMail:{
+    heading:"Stay up to date",
+  }
 }
