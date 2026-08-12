@@ -31,7 +31,7 @@ app/
 
 components/
 ├── layout/
-├── sections/
+├── reusabels/
 └── sections/
 
 data/
