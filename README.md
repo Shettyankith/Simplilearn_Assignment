@@ -32,13 +32,10 @@ app/
 components/
 ├── layout/
 ├── sections/
-└── ui/
+└── sections/
 
 data/
 ├── navigation.json
-└── ...
-
-types/
 └── ...
 
 public/
