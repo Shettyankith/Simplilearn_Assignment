@@ -11,7 +11,7 @@ import Footer from "@/components/layout/Footer";
 export default function Home() {
   return (
     <main className="bg-white text-black">
-      <div className=" bg-white text-black font-sans w-screen h-screen px-30 py-10">
+      <div className=" bg-white text-black font-sans h-screen px-[3vw] md:px-30 py-[2vw] md:py-10">
         <Navbar />
         <Hero />
       </div>

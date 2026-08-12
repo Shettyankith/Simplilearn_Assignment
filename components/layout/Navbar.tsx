@@ -2,14 +2,15 @@ import { IMAGES } from '@/data/images'
 import Image from 'next/image'
 import navigationData from "@/data/navigation.json";
 import Link from 'next/link';
+import MobileMenu from './MobileMenu';
 
 function Navbar() {
   return (
-    <header className='flex justify-between items-center'>
+    <header className='relative flex justify-between items-center'>
         <div>
-            <Image src={IMAGES.logo} alt="Logo" width={200} height={200}/>
+            <Image src={IMAGES.logo} alt="Logo" width={200} height={200} className="h-auto w-[10vw] min-w-[100px]"/>
         </div>
-        <div className='flex justify-between items-center'>
+        <div className='hidden lg:flex justify-between items-center'>
             <ul className='flex justify-items-start items-center '>
                 {
                    navigationData?.map((item,idx)=>(
@@ -22,6 +23,8 @@ function Navbar() {
                 <button className='bg-[#4CAF4F] text-white cursor-pointer rounded-md py-[0.6vw] px-[1vw]'>Sign Up</button>
             </div>
         </div>
+
+        <MobileMenu />
     </header>
   )
 }

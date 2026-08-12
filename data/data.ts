@@ -116,7 +116,7 @@ export const BLOGS={
 export const FOOTER={
   logo:IMAGES.companyDesignLogo,
   companyName:"Nexcent",
-  copyright:"Copyright 2020 Nexcent Itd.",
+  copyright:"Copyright © 2020 Nexcent Itd.",
   allRights:"All Rights reserved",
   mediaLinks:[
    IMAGES.instaIcon,
